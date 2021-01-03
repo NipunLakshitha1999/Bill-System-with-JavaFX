@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginForm">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFFF;">
+         <children>
+            <ImageView fitHeight="213.0" fitWidth="600.0" layoutX="-1.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../../assets/download.png" />
+               </image></ImageView>
+            <JFXTextField focusColor="#8e1eff" layoutX="170.0" layoutY="243.0" prefHeight="25.0" prefWidth="222.0" promptText="USER NAME" />
+            <JFXPasswordField focusColor="#8e1eff" layoutX="170.0" layoutY="300.0" prefHeight="25.0" prefWidth="222.0" promptText="PASSWORD" />
+            <JFXButton layoutX="196.0" layoutY="349.0" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #8e1eff;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
